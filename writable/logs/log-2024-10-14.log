@@ -1,0 +1,14 @@
+CRITICAL - 2024-10-14 12:00:28 --> ErrorException: Undefined variable $foto
+[Method: GET, Route: Aluno/Foto/MjY=]
+in APPPATH/Views/alunos/foto.php on line 44.
+ 1 APPPATH/Views/alunos/foto.php(44): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(234): include('/var/www/html/sigeo/app/Views/alunos/foto.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Aluno.php(65): view()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Aluno->Foto()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
